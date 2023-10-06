@@ -1,0 +1,20 @@
+name: qcxms-plugin
+version: 0.1.0
+website: https://example.com
+package: qcxms_plugin
+description: A QIIME 2 plugin for QCxMS.
+short_description: Plugin for QCxMS analysis.
+
+plugins:
+  - id: qcxms_plugin
+    name: QCxMS Plugin
+    description: A plugin for QCxMS analysis.
+    short_description: QCxMS Plugin
+
+actions:
+  - id: qcxms_plugin_function
+    name: QCxMS Plugin Function
+    description: A description of your function.
+    inputs: {}
+    outputs: {}
+    parameters: {}
